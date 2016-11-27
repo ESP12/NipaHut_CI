@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost:7777/NipaHut_CI';
+$config['base_url'] = 'https://reservation-for-nipahut.herokuapp.com/NipaHut_Controller';
 
 /*
 |--------------------------------------------------------------------------
