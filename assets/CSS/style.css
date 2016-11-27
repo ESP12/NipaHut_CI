@@ -1,0 +1,378 @@
+@font-face {
+	font-family: 'acme';
+	src: url(../fonts/acme.ttf);
+}
+@font-face {
+	font-family: 'compass';
+	src: url(../fonts/compass.ttf);
+}
+@font-face {
+	font-family: 'pacifico';
+	src: url(../fonts/pacifico.ttf);
+}
+@font-face {
+	font-family: 'asap';
+	src: url(../fonts/Asap.otf);
+}
+@font-face {
+	font-family: 'lobster';
+	src: url(../fonts/Lobster.otf);
+}
+@font-face {
+	font-family: 'bungasai';
+	src: url(../fonts/bungasai.ttf);
+}
+@font-face {
+	font-family: 'fugaz';
+	src: url(../fonts/fugaz.ttf);
+}
+h1, h2, h3, h4 {
+	font-family: 'bungasai';
+}
+.headline {
+	font-family: 'lobster';
+}
+.panel-title {
+	font-family: 'asap';
+	text-transform: uppercase !important;
+}
+body {
+	font-family: 'acme';
+}
+p {
+	font-family: 'acme';
+}
+.navbar-brand {
+	color: white !important;
+	text-transform: uppercase;
+	font-family: 'acme';
+	letter-spacing: 1px;
+}
+.navbar {
+	padding-top: 10px;
+	padding-bottom: 8px;
+	border: none;
+	font-family: 'compass';
+	background: rgba(17,17,17, 0.9);
+	box-shadow: 2px 2px 20px black;
+}
+.navbar-default .navbar-nav > li > a {
+	text-transform: uppercase;
+    color: white;
+}
+.navbar-default .navbar-nav >li.index > a {
+	letter-spacing: 1px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	background: none !important;
+	border-bottom: 1px solid orange !important;
+    color: orange !important;
+}
+.navbar-static-top {
+	margin-bottom: 0px;
+	background-color: rgb(21,21,21);
+}
+.no-border {
+	border: none !important;
+}
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+}
+.navbar .navbar-collapse {
+	text-align: center;
+}
+.heading-image {
+	padding-top: 140px;
+	background: url('../IMAGES/pic1.jpg');
+	background-size: cover;
+	padding-bottom: 100px;
+}
+.transaction-image {
+	padding-top: 70px;
+	background: url('../images/room-select.jpg');
+	background-size: cover;
+	padding-bottom: 20px;
+}
+.head-reservation {
+	padding-top: 20px;
+}
+.centered-title {
+	display: inline-block;
+	padding: 30px;
+	margin: 20px;
+	border: 1px solid white;
+}
+.welcome-nipa {
+	color: white;
+	text-align: center;
+}
+.welcome-nipa h1.index {
+	font-size: 70px;
+}
+.welcome-nipa hr {
+	width: 80%;
+}
+img.nav-icon {
+	margin-left: 20px;
+	margin-right: 10px;
+	max-height: 40px;
+	float: left;
+}
+.feature-cards {
+	padding-bottom: 130px;
+}
+.feature-wrapper {
+	padding-top: 90px;
+	text-align: center;
+}
+.feature-wrapper h1 {
+	color: black;
+	text-transform: uppercase;
+	font-family: 'compass';
+	font-weight: bolder;
+}
+.feature-title-line {
+	border-color: black;
+	width: 80%;
+}
+.card {
+	margin-top: 10px;
+	box-shadow: 1px 1px 15px rgba(0,0,0,0.5);
+}
+.card-img {
+	max-width: 100%;
+	width: 100%;
+}
+.card-block {
+	padding: 2rem;
+}
+.card-title {
+	color: darkorange;
+}
+.card-category{
+	text-transform: uppercase;
+	color: orange;
+	font-weight: 600;
+	text-align: center;
+}
+.card-description {
+	text-align: justify;
+}
+.footer-left-content{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.footer-left-content .content{
+	margin-left: 15px;
+}
+.footer-left-content .content a{
+	text-decoration: none;
+	color: black;
+}
+.footer-left-content .content a:hover{
+	color: orange;
+}
+.footer-line {
+	border: 2px dashed rgb(52,52,52);
+	border-radius: 100px;
+	width: 80%;
+	display: inline-block;
+}
+.location-map {
+	text-align: center;
+	color: white;
+	background-color: rgb(23,23,23);
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.map-description {
+	
+}
+.map-frame {
+	width: 100%;
+	min-height: 450px;
+	padding: 12px;
+	padding-bottom: 6px;
+}
+.nipa-footer {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.log-in {
+	float: right;
+	width: 400px;
+	padding: 20px;
+	background-color: white !important;
+}
+.btn-black {
+	background-color: black;
+	color: white;
+}
+.log-in-title {
+	text-align: center;
+	font-family: 'lobster';
+	font-weight: bold;
+}
+form input {
+	margin-bottom: 15px;
+}
+.register-account {
+	text-align: center;
+}
+.register-account a {
+	color: orange;
+}
+.reservations-tab {
+	width: 200px;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.8);
+	color: white !important;
+}
+.reserve-option {
+	text-decoration: none;
+	color: white !important;
+}
+.reserve-option:hover {
+	background-color: orange !important;
+	text-decoration: none;
+	color: white !important;
+}
+.modal-title {
+	font-family: 'acme';	
+	text-align: center;
+	font-weight: bolder;
+}
+.room-reservation {
+	text-align: center;
+}
+.room-reservation .input-group {
+	margin-bottom: 20px;
+}
+.room-reservation .col-lg-6 {
+	margin-left: 120px;
+}
+.step-description {
+	font-family: 'acme';
+}
+.input-group {
+	margin:auto;
+}
+.dark-footer {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: rgb(18,18,18);
+	color: white;
+}
+.dark-footer a {
+	color: white !important;
+}
+.dark-footer a:hover {
+	color: orange !important;
+}
+.dark-footer hr {
+	border-color: white !important;
+}
+/* FOR RESERVATION PAGES*/
+.reservation-content {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	color: black;
+}
+.reservation-summary {
+	padding-top: 10px;
+}
+.reservation-display {
+	padding: 10px;
+	padding-left: 30px;
+}
+.card-reservation-summary {
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+}
+.summary-title {
+	text-align: center;
+	font-family: 'asap';
+	text-transform: uppercase;
+	background-color: rgb(52, 56, 56) !important;
+	color: white !important;
+	padding-top: 10px; 
+	padding-bottom: 10px;
+}
+.summary-block div, .summary-block input {
+	margin-bottom: 15px;
+}
+.summary-block div.dropdown {
+	display:inline-block;
+}
+.summary-line {
+	border-color: black;
+	width: 100%;
+}
+.rooms-available {
+	margin-top: 15px;
+	padding: 20px;
+	border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.2);
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+.rooms-available img {
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+}
+.selected-room-line {
+	border-color: black;
+	margin: 0;
+	margin-bottom: 10px;
+}
+.total-amount {
+	text-align: center;
+	background-color: firebrick !important;
+	color: white !important;
+}
+.rooms-panel {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.available-rooms-title {	
+	font-size: 1.5em;
+	font-family: 'asap';
+	text-align: left;
+}
+.btn-next {
+	float: right;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+.room-price-heading {
+	font-family: 'asap';
+	letter-spacing: 0px;
+	float:right;
+}
+
+/*Designing of reservations*/
+.lg-reservenow {
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.panel .panel-primary{
+	box-shadow: 1px 1px 8px black;
+	border: 1px solid rgba(0,0,0,0.6);
+}
+.panel .panel-primary, .panel-heading, .panel-body {
+	border-radius: 0px !important;
+}
+.panel .panel-primary .panel-heading {
+	letter-spacing: 3px;
+	background: linear-gradient(to bottom right, rgb(35,35,35), rgb(50,50,50), rgb(100,100,100)) !important;
+}
+.panel .panel-body {
+	/*background: linear-gradient(white, gray, black);*/
+}
+.panel .panel-primary .panel-body {
+	background: linear-gradient(to bottom right, rgba(220,220,220,0.65), rgba(200,200,200,0.65), rgba(150,150,150,0.65)) !important;
+}
+.alert-qty {
+	margin-top: 20px;
+	border-radius: 0px;
+	border-top: 1px solid black;
+}
