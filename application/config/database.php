@@ -74,11 +74,12 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'nipadb',
+
+	'dsn'	=> 'pgsql:host=cgfkrhuhslekgx:d9hlIosGFNDEUloRouZO6QCVLb@ec2-54-225-246-33.compute-1.amazonaws.com;port=5432;dbname=d9343ujhqo8koh',
+	'hostname' => 'ec2-54-225-246-33.compute-1.amazonaws.com',
+	'username' => 'cgfkrhuhslekgx',
+	'password' => 'd9hlIosGFNDEUloRouZO6QCVLb',
+	'database' => 'd9343ujhqo8koh',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => TRUE,
