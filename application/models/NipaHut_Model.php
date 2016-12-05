@@ -6,12 +6,15 @@
  * Time: 8:53 PM
  */
 class NipaHut_Model extends CI_Model{
-    public function __construct()
-    {
+    public function __construct() {
         $this->load->database();
     }
+    //user loagin
+    public function login(){
+        //initialize session
+        $this->load->library('session');
 
-    public function submitReservation(){
-
+        //retrieve data from database
+        $login->load->query("SELECT * FROM guest WHERE ")
     }
 }
