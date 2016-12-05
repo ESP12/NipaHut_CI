@@ -21,9 +21,10 @@ class NipaHut_Model extends CI_Model{
 
     //new user is registered here
     public function register(){
-        $this->load->library('PasswordHash',array(8, FALSE));
+
 
         $data = array(
+            'reg-guestNumber' => $this->input->post(null),
             'reg-username' => $this->input->post('register-username'),
             'reg-password' =>($this->input->post('register-password')),
             'reg-firstname' => $this->input->post('register-firstname'),
@@ -31,9 +32,9 @@ class NipaHut_Model extends CI_Model{
             'reg-gender' => $this->input->post('register-gender'),
             'reg-email' => $this->input->post('register-emailaddress'),
             'reg-mobilenumber' => $this->input->post('register-mobilenumber'),
+            'active' => $this->input->post(null)
         );
 
-        $this->PasswordHash->HashPassword('reg-password');
 
         return $this->db->insert('guest', $data);
     }
