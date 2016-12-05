@@ -32,12 +32,7 @@ class NipaHut_Controller extends CI_Controller{
 
         //Set Validation Rules
 
-        $this->form_validation->set_rules('register-firstname', 'First name', 'required');
-        $this->form_validation->set_rules('register-lastname', 'Last name', 'required');
-        $this->form_validation->set_rules('register-gender', 'Gender', 'required');
-        $this->form_validation->set_rules('register-emailaddress', 'Email', 'required');
-        $this->form_validation->set_rules('register-mobilenumber', 'Mobile Number', 'required');
-        $this->form_validation->set_rules('register-username', 'Username', 'required');
+        $this->form_validation->set_error_delimiters('<div class="text-danger">', '</div>');s
         $this>form_validation>set_rules("input[register-password]","Password",'required|matches_array[input---register-confirmpassword]');
 
         if ($this->form_validation->run() == FALSE)
