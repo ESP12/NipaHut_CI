@@ -14,7 +14,7 @@
                         <div class=" list-group">
 
                             <?php echo validation_errors();?>
-                            <?php echo form_open('content/Registration/SignUp') ?>
+                            <?php echo form_open('content/Registration/SignUp'); ?>
                                 <a class="list-group-item">
                                     First Name
                                     <input name="register-firstname" type="text" class="form-control" required>
@@ -59,4 +59,3 @@
                 </div>
             </div></div></div>
     </section>
-<?php } ?>
