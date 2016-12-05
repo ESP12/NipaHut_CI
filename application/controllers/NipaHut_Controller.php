@@ -41,7 +41,7 @@ class NipaHut_Controller extends CI_Controller{
         $this->form_validation->set_rules('register-username', 'Username', 'is required');
         $this->form_validation->set_rules('register-password', 'Password', 'is required');
 
-        if ($this->form_validation->run() === FALSE)
+        if ($this->form_validation->run() == FALSE)
         {
 
             $this->load->view("template/headerReservation");
