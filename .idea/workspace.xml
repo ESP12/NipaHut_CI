@@ -25,8 +25,8 @@
               <file leaf-file-name="NipaHut_Controller.php" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/application/controllers/NipaHut_Controller.php">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="229">
-                      <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+                    <state relative-caret-position="127">
+                      <caret line="52" column="10" lean-forward="false" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
                       <folding />
                     </state>
                   </provider>
@@ -69,11 +69,11 @@
               <file leaf-file-name="NipaHut_Model.php" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/application/models/NipaHut_Model.php">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="263">
-                      <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+                    <state relative-caret-position="212">
+                      <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
                       <folding>
-                        <marker date="1480953357321" expanded="true" signature="392:417" ph="SELECT * FRO... guest" />
-                        <marker date="1480953357321" expanded="true" signature="392:429" ph="SELECT * FRO... guest" />
+                        <marker date="1480953860632" expanded="true" signature="392:417" ph="SELECT * FRO... guest" />
+                        <marker date="1480953860632" expanded="true" signature="392:429" ph="SELECT * FRO... guest" />
                       </folding>
                     </state>
                   </provider>
@@ -176,8 +176,8 @@
         <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/assets/CSS/style.css" />
         <option value="$PROJECT_DIR$/application/views/content/Registration/SignUp.php" />
-        <option value="$PROJECT_DIR$/application/models/NipaHut_Model.php" />
         <option value="$PROJECT_DIR$/application/controllers/NipaHut_Controller.php" />
+        <option value="$PROJECT_DIR$/application/models/NipaHut_Model.php" />
       </list>
     </option>
   </component>
@@ -577,12 +577,12 @@
       <workItem from="1480672739688" duration="2378000" />
       <workItem from="1480802958889" duration="1265000" />
       <workItem from="1480889886486" duration="4082000" />
-      <workItem from="1480930943429" duration="10969000" />
+      <workItem from="1480930943429" duration="11238000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82907000" />
+    <option name="totallyTimeSpent" value="83176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -990,22 +990,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/NipaHut_Model.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/NipaHut_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <marker date="1480953357321" expanded="true" signature="392:417" ph="SELECT * FRO... guest" />
-            <marker date="1480953357321" expanded="true" signature="392:429" ph="SELECT * FRO... guest" />
-          </folding>
+        <state relative-caret-position="127">
+          <caret line="52" column="10" lean-forward="false" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/NipaHut_Controller.php">
+    <entry file="file://$PROJECT_DIR$/application/models/NipaHut_Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
-          <folding />
+        <state relative-caret-position="212">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <marker date="1480953860632" expanded="true" signature="392:417" ph="SELECT * FRO... guest" />
+            <marker date="1480953860632" expanded="true" signature="392:429" ph="SELECT * FRO... guest" />
+          </folding>
         </state>
       </provider>
     </entry>
