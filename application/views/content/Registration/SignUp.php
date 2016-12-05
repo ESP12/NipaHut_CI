@@ -14,14 +14,14 @@
                         <div class=" list-group">
 
                             <?php echo validation_errors();?>
-                            <?php echo form_open('content/Registration/SignUp'); ?>
+                            <?php echo form_open('NipaHut_Controller/SignUp');?>
                                 <a class="list-group-item">
                                     First Name
-                                    <input name="register-firstname" type="text" class="form-control" required>
+                                    <input name="register-firstname" type="text" class="form-control" >
                                 </a>
                                 <a class="list-group-item">
                                     Last Name
-                                    <input name="register-lastname" type="text" class="form-control" required>
+                                    <input name="register-lastname" type="text" class="form-control" >
                                 </a>
                                 <a class="list-group-item">
                                     Gender
@@ -33,28 +33,27 @@
                                 </a>
                                 <a class="list-group-item">
                                     Email Address
-                                    <input name="register-emailaddress" type="text" class="form-control" required>
+                                    <input name="register-emailaddress" type="text" class="form-control" >
                                 </a>
                                 <a class="list-group-item">
                                     Mobile Number
-                                    <input name="register-mobilenumber" type="text" class="form-control" required>
+                                    <input name="register-mobilenumber" type="text" class="form-control" >
                                 </a>
                                 <a class="list-group-item"><h6>*This part will be covered for your Nipa Hut Guest Account for your convenient access.</h6>
                                     Username
-                                    <input name="register-username" type="text" class="form-control" required>
+                                    <input name="register-username" type="text" class="form-control" >
                                 </a>
                                 <a class="list-group-item">
                                     Password
-                                    <input name="register-password" type="password" class="form-control" required>
+                                    <input name="register-password" type="password" class="form-control" >
                                 </a>
                                 <a class="list-group-item">
                                     Confirm Password
-                                    <input name="register-confirmpassword" type="password" class="form-control" required>
+                                    <input name="register-confirmpassword" type="password" class="form-control" >
                                 </a>
                                 <a class="list-group-item text-right">
                                     <button name="sbt-signup" type="submit" class="btn btn-success">Register</button>
                                 </a>
-                            </form>
                         </div></div>
                 </div>
             </div></div></div>
