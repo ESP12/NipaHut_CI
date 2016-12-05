@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4c6d5ed4-b7c1-4b08-a952-f16cd4ddb697" name="Default" comment="Database Model fix&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/NipaHut_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/NipaHut_Controller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/NipaHut_Model.php" afterPath="$PROJECT_DIR$/application/models/NipaHut_Model.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +32,8 @@
               <file leaf-file-name="NipaHut_Controller.php" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/application/controllers/NipaHut_Controller.php">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="204">
-                      <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+                    <state relative-caret-position="153">
+                      <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
                       <folding />
                     </state>
                   </provider>
@@ -193,8 +194,8 @@
         <option value="$PROJECT_DIR$/assets/CSS/style.css" />
         <option value="$PROJECT_DIR$/application/views/content/Registration/SignUp.php" />
         <option value="$PROJECT_DIR$/application/config/autoload.php" />
-        <option value="$PROJECT_DIR$/application/controllers/NipaHut_Controller.php" />
         <option value="$PROJECT_DIR$/application/models/NipaHut_Model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/NipaHut_Controller.php" />
       </list>
     </option>
   </component>
@@ -611,7 +612,7 @@
       <workItem from="1480672739688" duration="2378000" />
       <workItem from="1480802958889" duration="1265000" />
       <workItem from="1480889886486" duration="4082000" />
-      <workItem from="1480930943429" duration="19770000" />
+      <workItem from="1480930943429" duration="20187000" />
     </task>
     <task id="LOCAL-00001" summary="Database Model fix&#10;">
       <created>1480962391037</created>
@@ -624,7 +625,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91708000" />
+    <option name="totallyTimeSpent" value="92125000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -1021,14 +1022,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/NipaHut_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
@@ -1053,6 +1046,14 @@
             <marker date="1480962573890" expanded="true" signature="468:493" ph="SELECT * FRO... guest" />
             <marker date="1480962573890" expanded="true" signature="468:505" ph="SELECT * FRO... guest" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/NipaHut_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
