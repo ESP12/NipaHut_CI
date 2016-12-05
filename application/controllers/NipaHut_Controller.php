@@ -32,13 +32,13 @@ class NipaHut_Controller extends CI_Controller{
 
         //Set Validation Rules
 
-        $this->form_validation->set_rules('register-firstname', 'First name', 'is required');
-        $this->form_validation->set_rules('register-lastname', 'Last name', 'is required');
-        $this->form_validation->set_rules('register-gender', 'Gender', 'is required');
-        $this->form_validation->set_rules('register-emailaddress', 'Email', 'is required');
-        $this->form_validation->set_rules('register-mobilenumber', 'Mobile Number', 'is required');
-        $this->form_validation->set_rules('register-username', 'Username', 'is required');
-        $this->form_validation->set_rules('register-password', 'Password', 'is required');
+        $this->form_validation->set_rules('register-firstname', 'First name', 'required');
+        $this->form_validation->set_rules('register-lastname', 'Last name', 'required');
+        $this->form_validation->set_rules('register-gender', 'Gender', 'required');
+        $this->form_validation->set_rules('register-emailaddress', 'Email', 'required');
+        $this->form_validation->set_rules('register-mobilenumber', 'Mobile Number', 'required');
+        $this->form_validation->set_rules('register-username', 'Username', 'required');
+        $this->form_validation->set_rules('register-password', 'Password', 'required');
 
         if ($this->form_validation->run() == FALSE)
         {
