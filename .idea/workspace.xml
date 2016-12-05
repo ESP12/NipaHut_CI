@@ -76,10 +76,10 @@
                 <entry file="file://$PROJECT_DIR$/application/models/NipaHut_Model.php">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="136">
-                      <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+                      <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
                       <folding>
-                        <marker date="1480966775255" expanded="true" signature="318:343" ph="SELECT * FRO... guest" />
-                        <marker date="1480966775255" expanded="true" signature="318:355" ph="SELECT * FRO... guest" />
+                        <marker date="1480967134299" expanded="true" signature="318:343" ph="SELECT * FRO... guest" />
+                        <marker date="1480967134299" expanded="true" signature="318:355" ph="SELECT * FRO... guest" />
                       </folding>
                     </state>
                   </provider>
@@ -114,8 +114,8 @@
           <file leaf-file-name="SignUp.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/application/views/content/Registration/SignUp.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+                <state relative-caret-position="153">
+                  <caret line="27" column="65" lean-forward="false" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="65" />
                   <folding />
                 </state>
               </provider>
@@ -621,7 +621,7 @@
       <workItem from="1480672739688" duration="2378000" />
       <workItem from="1480802958889" duration="1265000" />
       <workItem from="1480889886486" duration="4082000" />
-      <workItem from="1480930943429" duration="23969000" />
+      <workItem from="1480930943429" duration="24327000" />
     </task>
     <task id="LOCAL-00001" summary="Database Model fix&#10;">
       <created>1480962391037</created>
@@ -634,7 +634,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95907000" />
+    <option name="totallyTimeSpent" value="96265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -1049,8 +1049,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/content/Registration/SignUp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+        <state relative-caret-position="153">
+          <caret line="27" column="65" lean-forward="false" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="65" />
           <folding />
         </state>
       </provider>
@@ -1058,10 +1058,10 @@
     <entry file="file://$PROJECT_DIR$/application/models/NipaHut_Model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding>
-            <marker date="1480966775255" expanded="true" signature="318:343" ph="SELECT * FRO... guest" />
-            <marker date="1480966775255" expanded="true" signature="318:355" ph="SELECT * FRO... guest" />
+            <marker date="1480967134299" expanded="true" signature="318:343" ph="SELECT * FRO... guest" />
+            <marker date="1480967134299" expanded="true" signature="318:355" ph="SELECT * FRO... guest" />
           </folding>
         </state>
       </provider>

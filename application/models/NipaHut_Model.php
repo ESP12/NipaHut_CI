@@ -23,7 +23,7 @@ class NipaHut_Model extends CI_Model{
             'username' => $this->input->post('register-username'),
             'guestpassword' => md5($this->input->post('register-password')),
             'firstname' => $this->input->post('register-firstname'),
-            'lastname' => $this->input->post('register-lastname'),
+            'lastname'=> $this->input->post('register-lastname'),
             'gender' => $this->input->post('register-gender'),
             'emailaddress' => $this->input->post('register-emailaddress'),
             'mobilenumber' => $this->input->post('register-mobilenumber'),
