@@ -32,7 +32,7 @@ class NipaHut_Controller extends CI_Controller{
 
         //Set Validation Rules
 
-        $this->form_validation->set_error_delimiters('<div class="text-danger">', '</div>');s
+        $this->form_validation->set_error_delimiters('<div class="text-danger">', '</div>');
         $this>form_validation>set_rules("input[register-password]","Password",'required|matches_array[input---register-confirmpassword]');
 
         if ($this->form_validation->run() == FALSE)
