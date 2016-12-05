@@ -30,7 +30,6 @@ class NipaHut_Model extends CI_Model{
             'Gender' => $this->input->post('register-gender'),
             'EmailAddress' => $this->input->post('register-emailaddress'),
             'MobileNumber' => $this->input->post('register-mobilenumber'),
-
         );
 
 
