@@ -19,14 +19,14 @@
   <component name="FileEditorManager">
     <splitter split-orientation="vertical" split-proportion="0.52162164">
       <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.52675205">
+        <splitter split-orientation="horizontal" split-proportion="0.5817634">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file leaf-file-name="NipaHut_Controller.php" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/application/controllers/NipaHut_Controller.php">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="77">
-                      <caret line="43" column="45" lean-forward="false" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
+                    <state relative-caret-position="170">
+                      <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
                       <folding />
                     </state>
                   </provider>
@@ -69,8 +69,8 @@
               <file leaf-file-name="NipaHut_Model.php" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/application/models/NipaHut_Model.php">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="246">
-                      <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+                    <state relative-caret-position="229">
+                      <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
                       <folding>
                         <marker date="1480955628283" expanded="true" signature="392:417" ph="SELECT * FRO... guest" />
                         <marker date="1480955628283" expanded="true" signature="392:429" ph="SELECT * FRO... guest" />
@@ -88,7 +88,7 @@
           <file leaf-file-name="SignUp.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/application/views/content/Registration/SignUp.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
+                <state relative-caret-position="17">
                   <caret line="16" column="61" lean-forward="true" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
                   <folding />
                 </state>
@@ -577,12 +577,12 @@
       <workItem from="1480672739688" duration="2378000" />
       <workItem from="1480802958889" duration="1265000" />
       <workItem from="1480889886486" duration="4082000" />
-      <workItem from="1480930943429" duration="13014000" />
+      <workItem from="1480930943429" duration="13542000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84952000" />
+    <option name="totallyTimeSpent" value="85480000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -984,7 +984,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/content/Registration/SignUp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="17">
           <caret line="16" column="61" lean-forward="true" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
           <folding />
         </state>
@@ -992,8 +992,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/NipaHut_Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        <state relative-caret-position="229">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <marker date="1480955628283" expanded="true" signature="392:417" ph="SELECT * FRO... guest" />
             <marker date="1480955628283" expanded="true" signature="392:429" ph="SELECT * FRO... guest" />
@@ -1003,8 +1003,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/NipaHut_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="43" column="45" lean-forward="false" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
+        <state relative-caret-position="170">
+          <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
           <folding />
         </state>
       </provider>

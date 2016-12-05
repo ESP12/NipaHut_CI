@@ -27,8 +27,7 @@ class NipaHut_Controller extends CI_Controller{
 
     public function SignUp(){
         //Initialize Session
-        $this->load->library('session');
-        $this->load->helper('form');
+
         $this->load->library('form_validation');
 
         //Set Validation Rules
@@ -41,9 +40,8 @@ class NipaHut_Controller extends CI_Controller{
         $this->form_validation->set_rules('register-username', 'Username', 'is required');
         $this->form_validation->set_rules('register-password', 'Password', 'is required');
 
-        if ($this->form_validation->run() === FALSE)
+        if ($this->form_validation->run() == FALSE)
         {
-
             $this->load->view("template/headerReservation");
             $this->load->view("content/Registration/SignUp");
             $this->load->view("template/footer");
