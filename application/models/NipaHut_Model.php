@@ -20,7 +20,6 @@ class NipaHut_Model extends CI_Model{
     //new user is registered here
     public function register(){
         $data = array(
-            'GuestID' => '1',
             'Username' => $this->input->post('register-username'),
             'guestPassword' =>md5($this->input->post('register-password')),
             'FirstName' => $this->input->post('register-firstname'),
