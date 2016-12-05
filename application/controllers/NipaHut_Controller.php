@@ -38,7 +38,7 @@ class NipaHut_Controller extends CI_Controller{
         $this->form_validation->set_rules('register-emailaddress', 'Email', 'required');
         $this->form_validation->set_rules('register-mobilenumber', 'Mobile Number', 'required');
         $this->form_validation->set_rules('register-username', 'Username', 'required');
-        $this->form_validation->set_rules('register-password', 'Password', 'required');
+        $this>form_validation>set_rules("input[register-password]","Password",'required|matches_array[input---register-confirmpassword]');
 
         if ($this->form_validation->run() == FALSE)
         {
@@ -49,6 +49,7 @@ class NipaHut_Controller extends CI_Controller{
         else
         {
             $this->NipaHut_Model->register();
+
             // Set username session variable
             $this->session->set_userdata('success', "Successfully Registered. Please login");
 
