@@ -70,11 +70,21 @@
                 <entry file="file://$PROJECT_DIR$/application/models/NipaHut_Model.php">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="79">
-                      <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+                      <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
                       <folding>
-                        <marker date="1480960653175" expanded="true" signature="404:429" ph="SELECT * FRO... guest" />
-                        <marker date="1480960653175" expanded="true" signature="404:441" ph="SELECT * FRO... guest" />
+                        <marker date="1480961081713" expanded="true" signature="437:462" ph="SELECT * FRO... guest" />
+                        <marker date="1480961081713" expanded="true" signature="437:474" ph="SELECT * FRO... guest" />
                       </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="autoload.php" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="810">
+                      <caret line="98" column="1" lean-forward="true" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
+                      <folding />
                     </state>
                   </provider>
                 </entry>
@@ -577,12 +587,12 @@
       <workItem from="1480672739688" duration="2378000" />
       <workItem from="1480802958889" duration="1265000" />
       <workItem from="1480889886486" duration="4082000" />
-      <workItem from="1480930943429" duration="17867000" />
+      <workItem from="1480930943429" duration="18290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89805000" />
+    <option name="totallyTimeSpent" value="90228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -982,14 +992,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="98" column="1" lean-forward="true" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/NipaHut_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -998,13 +1000,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="98" column="1" lean-forward="true" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/NipaHut_Model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="79">
-          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
           <folding>
-            <marker date="1480960653175" expanded="true" signature="404:429" ph="SELECT * FRO... guest" />
-            <marker date="1480960653175" expanded="true" signature="404:441" ph="SELECT * FRO... guest" />
+            <marker date="1480961081713" expanded="true" signature="437:462" ph="SELECT * FRO... guest" />
+            <marker date="1480961081713" expanded="true" signature="437:474" ph="SELECT * FRO... guest" />
           </folding>
         </state>
       </provider>
