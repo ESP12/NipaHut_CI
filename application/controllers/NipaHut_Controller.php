@@ -26,9 +26,39 @@ class NipaHut_Controller extends CI_Controller{
     }
 
     public function SignUp(){
-        $this->load->view("template/headerReservation");
-        $this->load->view("content/Registration/SignUp");
-        $this->load->view("template/footer");
+        //Initialize Session
+        $this->load->library('session');
+        $this->load->helper('form');
+        $this->load->library('form_validation');
+
+        //Set Validation Rules
+
+        $this->form_validation->set_rules('register-firstname', 'First name', 'is required');
+        $this->form_validation->set_rules('register-lastname', 'Last name', 'is required');
+        $this->form_validation->set_rules('register-gender', 'Gender', 'is required');
+        $this->form_validation->set_rules('register-emailaddress', 'Email', 'is required');
+        $this->form_validation->set_rules('register-mobilenumber', 'Mobile Number', 'is required');
+        $this->form_validation->set_rules('register-username', 'Username', 'is required');
+        $this->form_validation->set_rules('register-password', 'Password', 'is required');
+
+        if ($this->form_validation->run() === FALSE)
+        {
+
+            $this->load->view("template/headerReservation");
+            $this->load->view("content/Registration/SignUp");
+            $this->load->view("template/footer");
+        }
+        else
+        {
+            $this->NipaHut_Model->register();
+            // Set username session variable
+            $this->session->set_userdata('success', "Successfully Registered. Please login");
+
+            $this->load->view("template/headerReservation");
+            $this->load->view("content/Registration/SignUp");
+            $this->load->view("template/footer");
+        }
+
     }
 
     public function Reservation_Step_1(){
