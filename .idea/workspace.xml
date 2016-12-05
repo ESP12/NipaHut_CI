@@ -72,14 +72,14 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="NipaHut_Model.php" pinned="false" current-in-tab="false">
+              <file leaf-file-name="NipaHut_Model.php" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/application/models/NipaHut_Model.php">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="34">
-                      <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+                      <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
                       <folding>
-                        <marker date="1480964608475" expanded="true" signature="318:343" ph="SELECT * FRO... guest" />
-                        <marker date="1480964608475" expanded="true" signature="318:355" ph="SELECT * FRO... guest" />
+                        <marker date="1480965428417" expanded="true" signature="318:343" ph="SELECT * FRO... guest" />
+                        <marker date="1480965428417" expanded="true" signature="318:355" ph="SELECT * FRO... guest" />
                       </folding>
                     </state>
                   </provider>
@@ -95,7 +95,7 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="database.php" pinned="false" current-in-tab="true">
+              <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/application/config/database.php">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="215">
@@ -621,7 +621,7 @@
       <workItem from="1480672739688" duration="2378000" />
       <workItem from="1480802958889" duration="1265000" />
       <workItem from="1480889886486" duration="4082000" />
-      <workItem from="1480930943429" duration="22340000" />
+      <workItem from="1480930943429" duration="22623000" />
     </task>
     <task id="LOCAL-00001" summary="Database Model fix&#10;">
       <created>1480962391037</created>
@@ -634,7 +634,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94278000" />
+    <option name="totallyTimeSpent" value="94561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -1047,22 +1047,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/NipaHut_Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-          <folding>
-            <marker date="1480964608475" expanded="true" signature="318:343" ph="SELECT * FRO... guest" />
-            <marker date="1480964608475" expanded="true" signature="318:355" ph="SELECT * FRO... guest" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="81" column="33" lean-forward="false" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/NipaHut_Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <marker date="1480965428417" expanded="true" signature="318:343" ph="SELECT * FRO... guest" />
+            <marker date="1480965428417" expanded="true" signature="318:355" ph="SELECT * FRO... guest" />
+          </folding>
         </state>
       </provider>
     </entry>
