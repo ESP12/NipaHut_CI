@@ -90,7 +90,7 @@ p {
 }
 .transaction-image {
 	padding-top: 70px;
-	background: url('../images/room-select.jpg');
+	background: url("<?php echo base_url(assets/IMAGES/room1.jpg)?>");
 	background-size: cover;
 	padding-bottom: 20px;
 }
