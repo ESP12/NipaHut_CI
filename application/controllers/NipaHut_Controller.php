@@ -48,9 +48,9 @@ class NipaHut_Controller extends CI_Controller{
         }
         else
         {
-            $this->NipaHut_Model->register();
+            $this->load->model('register');
             // Set username session variable
-            $this->session->set_userdata('success', "Successfully Registered. Please login");
+           // $this->session->set_userdata('success', "Successfully Registered. Please login");
 
             $this->load->view("template/headerReservation");
             $this->load->view("content/Registration/SignUp");
