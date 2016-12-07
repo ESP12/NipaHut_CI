@@ -50,6 +50,7 @@
                                     <input name="register-password" value="<?php  echo set_value('register-password');?>" type="password" class="form-control" required>
                                 </a>
                                 <a class="list-group-item">
+                                    <?php $this->form_validation->set_rules('register-confirmpassword', 'Password Confirmation', 'matches[register-password]');?>
                                     <label>Confirm Password</label>
                                     <input name="register-confirmpassword" value="<?php echo set_value('register-confirmpassword');?>" type="password" class="form-control" required>
                                 </a>

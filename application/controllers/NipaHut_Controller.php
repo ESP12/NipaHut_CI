@@ -31,7 +31,7 @@ class NipaHut_Controller extends CI_Controller{
         $this->load->library('form_validation');
 
         //Set Validation
-        $this->form_validation->set_rules('register-confirmpassword', 'Password Confirmation', 'matches[register-password]');
+       // $this->form_validation->set_rules('register-confirmpassword', 'Password Confirmation', 'matches[register-password]');
 
         if ($this->form_validation->run() == FALSE)
         {
@@ -42,6 +42,7 @@ class NipaHut_Controller extends CI_Controller{
         else
         {
             $this->NipaHut_Model->register();
+
             $data = array(
                 'firstname' => 'register-firstname',
                 'lastname' => 'register-lastname',
@@ -55,7 +56,6 @@ class NipaHut_Controller extends CI_Controller{
             $this->load->view("content/Registration/success-signUp",$data);
             $this->load->view("template/footer");
         }
-
     }
 
     public function Reservation_Step_1(){
