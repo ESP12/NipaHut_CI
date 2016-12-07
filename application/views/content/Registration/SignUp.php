@@ -13,7 +13,9 @@
                         </div>
                         <div class=" list-group">
 
-                            <?php //echo validation_errors();?>
+                            <?php if(validation_errors()):?>
+                                <div class='alert alert-error span4'><?php echo validation_errors(); ?></div>
+                            <?php endif;?>
                             <?php echo form_open('NipaHut_Controller/SignUp');?>
                                 <a class="list-group-item">
                                     <label>First Name</label>

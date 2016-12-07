@@ -4,6 +4,7 @@
     <list default="true" id="4c6d5ed4-b7c1-4b08-a952-f16cd4ddb697" name="Default" comment="Database Model fix&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/NipaHut_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/NipaHut_Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/content/Registration/SignUp.php" afterPath="$PROJECT_DIR$/application/views/content/Registration/SignUp.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/CSS/style.css" afterPath="$PROJECT_DIR$/assets/CSS/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,8 +77,8 @@
               <file leaf-file-name="NipaHut_Model.php" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/application/models/NipaHut_Model.php">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="300">
-                      <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+                    <state relative-caret-position="164">
+                      <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
                       <folding>
                         <marker date="1480967134299" expanded="true" signature="318:343" ph="SELECT * FRO... guest" />
                         <marker date="1480967134299" expanded="true" signature="318:355" ph="SELECT * FRO... guest" />
@@ -112,20 +113,20 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="SignUp.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="SignUp.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/application/views/content/Registration/SignUp.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="147">
-                  <caret line="47" column="116" lean-forward="true" selection-start-line="47" selection-start-column="116" selection-end-line="47" selection-end-column="116" />
+                <state relative-caret-position="198">
+                  <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/CSS/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="237">
+                <state relative-caret-position="187">
                   <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
                   <folding />
                 </state>
@@ -203,9 +204,9 @@
         <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/config/autoload.php" />
         <option value="$PROJECT_DIR$/application/models/NipaHut_Model.php" />
-        <option value="$PROJECT_DIR$/application/views/content/Registration/SignUp.php" />
-        <option value="$PROJECT_DIR$/application/controllers/NipaHut_Controller.php" />
         <option value="$PROJECT_DIR$/assets/CSS/style.css" />
+        <option value="$PROJECT_DIR$/application/controllers/NipaHut_Controller.php" />
+        <option value="$PROJECT_DIR$/application/views/content/Registration/SignUp.php" />
       </list>
     </option>
   </component>
@@ -622,7 +623,7 @@
       <workItem from="1480672739688" duration="2378000" />
       <workItem from="1480802958889" duration="1265000" />
       <workItem from="1480889886486" duration="4082000" />
-      <workItem from="1480930943429" duration="28841000" />
+      <workItem from="1480930943429" duration="29446000" />
     </task>
     <task id="LOCAL-00001" summary="Database Model fix&#10;">
       <created>1480962391037</created>
@@ -635,7 +636,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100779000" />
+    <option name="totallyTimeSpent" value="101384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -1025,17 +1026,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/NipaHut_Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding>
-            <marker date="1480967134299" expanded="true" signature="318:343" ph="SELECT * FRO... guest" />
-            <marker date="1480967134299" expanded="true" signature="318:355" ph="SELECT * FRO... guest" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/template/headerReservation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-278">
@@ -1044,11 +1034,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/content/Registration/SignUp.php">
+    <entry file="file://$PROJECT_DIR$/assets/CSS/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="47" column="116" lean-forward="true" selection-start-line="47" selection-start-column="116" selection-end-line="47" selection-end-column="116" />
+        <state relative-caret-position="187">
+          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/NipaHut_Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <marker date="1480967134299" expanded="true" signature="318:343" ph="SELECT * FRO... guest" />
+            <marker date="1480967134299" expanded="true" signature="318:355" ph="SELECT * FRO... guest" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1060,10 +1061,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/CSS/style.css">
+    <entry file="file://$PROJECT_DIR$/application/views/content/Registration/SignUp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        <state relative-caret-position="198">
+          <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
           <folding />
         </state>
       </provider>
