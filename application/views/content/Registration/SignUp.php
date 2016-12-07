@@ -51,7 +51,7 @@
                                 </a>
                                 <a class="list-group-item">
                                     <label>Confirm Password</label>
-                                    <input name="register-confirmpassword" type="password" class="form-control" required>
+                                    <input name="register-confirmpassword" value="<?php echo set_value('register-confirmpassword');?>" type="password" class="form-control" required>
                                 </a>
                                 <a class="list-group-item text-right">
                                     <button name="sbt-signup" type="submit" class="btn btn-success">Register</button>

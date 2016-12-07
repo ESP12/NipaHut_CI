@@ -30,9 +30,9 @@ class NipaHut_Controller extends CI_Controller{
         $this->load->library('session');
         $this->load->library('form_validation');
 
-        //Set Validation Rules
-
-        $this->form_validation->set_rules("input[register-password]","Password",'required|matches_array[register-confirmpassword]');
+        //Set Validation
+        $this->form_validation->set_rules('register-password', 'Password', 'trim|required|min_length[8]');
+        $this->form_validation->set_rules('register-confirmpassword', 'Password Confirmation', 'trim|required|matches[register-password]');
 
         if ($this->form_validation->run() == FALSE)
         {
