@@ -31,24 +31,28 @@ class NipaHut_Controller extends CI_Controller{
         $this->load->library('form_validation');
 
         //Set Validation
-        $this->form_validation->set_rules('register-password', 'Password', 'trim|required|min_length[8]');
         $this->form_validation->set_rules('register-confirmpassword', 'Password Confirmation', 'trim|required|matches[register-password]');
 
         if ($this->form_validation->run() == FALSE)
         {
-            $this->load->view("template/headerReservation");
+            $this->load->view("template/header");
             $this->load->view("content/Registration/SignUp");
             $this->load->view("template/footer");
         }
         else
         {
             $this->NipaHut_Model->register();
+            $data = array(
+                'firstname' => 'register-firstname',
+                'lastname' => 'register-lastname',
+                'gender' => 'register-gender',
+                'email' => 'register-emailaddress',
+                'mobile' => 'register-mobilenumber',
+                'username' => 'register-username'
+            );
 
-            // Set username session variable
-            $this->session->set_userdata('success', "Successfully Registered. Please login");
-
-            $this->load->view("template/headerReservation");
-            $this->load->view("content/Registration/SignUp");
+            $this->load->view("template/header");
+            $this->load->view("content/Registration/success-signUp",$data);
             $this->load->view("template/footer");
         }
 
