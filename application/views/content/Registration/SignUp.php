@@ -16,6 +16,7 @@
                             <?php if(validation_errors()):?>
                                 <div class='alert alert-error span4'><?php echo validation_errors(); ?></div>
                             <?php endif;?>
+
                             <?php echo form_open('NipaHut_Controller/SignUp');?>
                                 <a class="list-group-item">
                                     <label>First Name</label>
@@ -50,7 +51,7 @@
                                     <input name="register-password" value="<?php  echo set_value('register-password');?>" type="password" class="form-control" required>
                                 </a>
                                 <a class="list-group-item">
-                                    <?php $this->form_validation->set_rules('register-confirmpassword', 'Password Confirmation', 'matches[register-password]');?>
+                                    <?php $this->form_validation->set_rules('register-password', 'Password Confirmation', 'matches[register-confirmpassword]');?>
                                     <label>Confirm Password</label>
                                     <input name="register-confirmpassword" value="<?php echo set_value('register-confirmpassword');?>" type="password" class="form-control" required>
                                 </a>
