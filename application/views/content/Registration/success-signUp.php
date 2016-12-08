@@ -38,7 +38,10 @@
                             <label>Username</label>
                             <input name="register-username" value="<?php  echo $username?>" type="text" class="form-control" required>
                         </a>
-                    </div></div>
+                    </div>
+                </div>
             </div>
-        </div></div></div>
+        </div>
+    </div>
+    </div>
 </section>
