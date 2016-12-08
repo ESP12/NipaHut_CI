@@ -16,7 +16,6 @@
                         <?php if(validation_errors()):?>
                             <div class='alert alert-error span4'><?php echo validation_errors(); ?></div>
                         <?php endif;?>
-                        <?php echo form_open('NipaHut_Controller/SignUp');?>
                         <a class="list-group-item">
                             <label>First Name</label>
                             <input name="register-firstname" type="text" value="<?php  echo $firstname;?>" class="form-control" required>
@@ -43,7 +42,6 @@
                             <label>Username</label>
                             <input name="register-username" value="<?php  echo $username?>" type="text" class="form-control" required>
                         </a>
-                        <?php form_close();?>
                     </div></div>
             </div>
         </div></div></div>

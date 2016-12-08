@@ -9,7 +9,10 @@
 
 class NipaHut_Controller extends CI_Controller{
 
-
+    function __construct() {
+        parent::__construct();
+        $this->load->model('NipaHut_Model');
+    }
 
     public function index(){
         $this->load->database();
