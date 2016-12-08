@@ -9,7 +9,9 @@
 <section class="reservation-content">
     <div class="container">
         <div class="row">
-            <h1 class="text-center">Registration Successful <?php echo $_POST['firstname']; ?>!</h1><div class="row"><div class="col-md-3"></div><div class="col-md-6">
+            <h1 class="text-center">Registration Successful <?php echo $_POST['firstname']; ?>!</h1>
+            <div class="row">
+                <div class="col-md-3"></div><div class="col-md-6">
                     <div class="panel panel-default"><div class="panel-heading summary-title">
                             <h3 class="panel-title available-rooms-title">Guest Information</h3>
                         </div>
