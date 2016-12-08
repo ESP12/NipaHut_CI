@@ -15,12 +15,12 @@
                             <?php echo form_open('NipaHut_Controller/SignUp');?>
                                 <a class="list-group-item">
                                     <label>First Name</label>
-                                    <input name="register-firstname" type="text" value="" class="form-control" required>
+                                    <input name="register-firstname" type="text" value="<?php  echo set_value('register-firstname');?>" class="form-control" required>
                                     <span class="text-danger"><?php echo form_error('register-firstname'); ?></span>
                                 </a>
                                 <a class="list-group-item">
                                     <label>Last Name</label>
-                                    <input name="register-lastname" type="text" value="" class="form-control" required>
+                                    <input name="register-lastname" type="text" value="<?php  echo set_value('register-lastname');?>" class="form-control" required>
                                     <span class="text-danger"><?php echo form_error('register-lastname'); ?></span>
                                 </a>
                                 <a class="list-group-item">
@@ -34,27 +34,27 @@
                                 </a>
                                 <a class="list-group-item">
                                     <label>Email Address</label>
-                                    <input name="register-emailaddress" value="" type="text" class="form-control" required>
+                                    <input name="register-emailaddress" value="<?php  echo set_value('register-emailaddress');?>" type="text" class="form-control" required>
                                     <span class="text-danger"><?php echo form_error('register-emailaddress'); ?></span>
                                 </a>
                                 <a class="list-group-item">
                                     <label>Mobile Number</label>
-                                    <input name="register-mobilenumber" value="" type="text" class="form-control" required>
+                                    <input name="register-mobilenumber" value="<?php  echo set_value('register-mobilenumber');?>" type="text" class="form-control" required>
                                     <span class="text-danger"><?php echo form_error('register-mobilenumber'); ?></span>
                                 </a>
                                 <a class="list-group-item"><h6>*This part will be covered for your Nipa Hut Guest Account for your convenient access.</h6>
                                     <label>Username</label>
-                                    <input name="register-username" value="" type="text" class="form-control" required>
+                                    <input name="register-username" value="<?php  echo set_value('register-username');?>" type="text" class="form-control" required>
                                     <span class="text-danger"><?php echo form_error('register-username'); ?></span>
                                 </a>
                                 <a class="list-group-item">
                                     <label>Password</label>
-                                    <input name="register-password" value="" type="password" class="form-control" required>
+                                    <input name="register-password" value="<?php echo set_value('register-password'); ?>" type="password" class="form-control" required>
                                     <span class="text-danger"><?php echo form_error('register-password'); ?></span>
                                 </a>
                                 <a class="list-group-item">
                                     <label>Confirm Password</label>
-                                    <input name="register-confirmpassword" value="" type="password" class="form-control" required>
+                                    <input name="register-confirmpassword" value="<?php echo set_value('register-confirmpassword'); ?>" type="password" class="form-control" required>
                                     <span class="text-danger"><?php echo form_error('register-confirmpassword'); ?></span>
                                 </a>
                                 <a class="list-group-item text-right">
