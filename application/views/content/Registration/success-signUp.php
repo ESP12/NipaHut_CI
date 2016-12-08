@@ -13,7 +13,7 @@
                     </div>
                     <div class=" list-group">
                             <div class='alert alert-error span4'><?php echo validation_errors(); ?></div>
-                        <?php endif;?>
+
                         <a class="list-group-item">
                             <label>First Name</label>
                             <input name="register-firstname" type="text" value="<?php  echo $firstname;?>" class="form-control" required>
