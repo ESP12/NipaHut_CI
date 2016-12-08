@@ -48,12 +48,12 @@ class NipaHut_Controller extends CI_Controller{
             $this->NipaHut_Model->register();
 
             $data = array(
-                'firstname' => $this->input->get('register-firstname'),
-                'lastname' => $this->input->get('register-lastname'),
-                'gender' => $this->input->get('register-gender'),
-                'email' => $this->input->get('register-emailaddress'),
-                'mobile' => $this->input->get('register-mobilenumber'),
-                'username' => $this->input->get('register-username')
+                'firstname' => $this->input->post('register-firstname'),
+                'lastname' => $this->input->post('register-lastname'),
+                'gender' => $this->input->post('register-gender'),
+                'email' => $this->input->post('register-emailaddress'),
+                'mobile' => $this->input->post('register-mobilenumber'),
+                'username' => $this->input->post('register-username')
             );
 
             $this->load->view("template/header");

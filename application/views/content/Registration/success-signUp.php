@@ -16,7 +16,7 @@
 
                         <a class="list-group-item">
                             <label>First Name</label>
-                            <input name="register-firstname" type="text" value="<?php  echo $firstname;?>" class="form-control" required>
+                            <input name="register-firstname" type="text" value="<?php echo $firstname;?>" class="form-control" required>
                         </a>
                         <a class="list-group-item">
                             <label>Last Name</label>
