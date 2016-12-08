@@ -12,8 +12,6 @@
                         <h3 class="panel-title available-rooms-title">Guest Information - Sign Up</h3>
                     </div>
                     <div class=" list-group">
-
-                        <?php if(validation_errors()):?>
                             <div class='alert alert-error span4'><?php echo validation_errors(); ?></div>
                         <?php endif;?>
                         <a class="list-group-item">
@@ -26,9 +24,7 @@
                         </a>
                         <a class="list-group-item">
                             <label>Gender</label>
-                            <select name="register-gender" class="btn btn-default form-control" required>
-                                <option value="<?php echo $gender;?>" ></option>
-                            </select>
+                            <input type="text" value="<?php echo $gender; ?>" class="form-control">
                         </a>
                         <a class="list-group-item">
                             <label>Email Address</label>

@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4c6d5ed4-b7c1-4b08-a952-f16cd4ddb697" name="Default" comment="Database Model fix&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/NipaHut_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/NipaHut_Controller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/content/Registration/SignUp.php" afterPath="$PROJECT_DIR$/application/views/content/Registration/SignUp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/content/Registration/success-signUp.php" afterPath="$PROJECT_DIR$/application/views/content/Registration/success-signUp.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -84,17 +84,17 @@
             <entry file="file://$PROJECT_DIR$/application/views/content/Registration/SignUp.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="17">
-                  <caret line="51" column="106" lean-forward="false" selection-start-line="51" selection-start-column="106" selection-end-line="51" selection-end-column="106" />
+                  <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
                   <folding>
-                    <marker date="1481224174148" expanded="true" signature="1262:1433" ph="..." />
-                    <marker date="1481224174148" expanded="true" signature="1701:2039" ph="..." />
-                    <marker date="1481224174148" expanded="true" signature="1873:2039" ph="..." />
-                    <marker date="1481224174148" expanded="true" signature="2470:2637" ph="..." />
-                    <marker date="1481224174148" expanded="true" signature="2925:3092" ph="..." />
-                    <marker date="1481224174148" expanded="true" signature="3380:3633" ph="..." />
-                    <marker date="1481224174148" expanded="true" signature="3913:4042" ph="..." />
-                    <marker date="1481224174148" expanded="true" signature="4355:4499" ph="..." />
-                    <marker date="1481224174148" expanded="true" signature="4837:4992" ph="..." />
+                    <marker date="1481225610829" expanded="true" signature="1216:1366" ph="..." />
+                    <marker date="1481225610829" expanded="true" signature="1610:1948" ph="..." />
+                    <marker date="1481225610829" expanded="true" signature="1782:1948" ph="..." />
+                    <marker date="1481225610829" expanded="true" signature="2379:2525" ph="..." />
+                    <marker date="1481225610829" expanded="true" signature="2785:2931" ph="..." />
+                    <marker date="1481225610829" expanded="true" signature="3191:3423" ph="..." />
+                    <marker date="1481225610829" expanded="true" signature="3679:3808" ph="..." />
+                    <marker date="1481225610829" expanded="true" signature="4076:4220" ph="..." />
+                    <marker date="1481225610829" expanded="true" signature="4506:4661" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -103,8 +103,8 @@
           <file leaf-file-name="success-signUp.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/application/views/content/Registration/success-signUp.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-8">
-                  <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+                <state relative-caret-position="17">
+                  <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
                   <folding />
                 </state>
               </provider>
@@ -194,8 +194,8 @@
         <option value="$PROJECT_DIR$/application/config/form_validation.php" />
         <option value="$PROJECT_DIR$/application/views/template/headerReservation.php" />
         <option value="$PROJECT_DIR$/assets/CSS/style.css" />
-        <option value="$PROJECT_DIR$/application/views/content/Registration/success-signUp.php" />
         <option value="$PROJECT_DIR$/application/controllers/NipaHut_Controller.php" />
+        <option value="$PROJECT_DIR$/application/views/content/Registration/success-signUp.php" />
         <option value="$PROJECT_DIR$/application/views/content/Registration/SignUp.php" />
       </list>
     </option>
@@ -616,7 +616,7 @@
       <workItem from="1480930943429" duration="29941000" />
       <workItem from="1481105423220" duration="349000" />
       <workItem from="1481130200408" duration="10786000" />
-      <workItem from="1481216010980" duration="7649000" />
+      <workItem from="1481216010980" duration="9088000" />
     </task>
     <task id="LOCAL-00001" summary="Database Model fix&#10;">
       <created>1480962391037</created>
@@ -629,7 +629,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120663000" />
+    <option name="totallyTimeSpent" value="122102000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -979,14 +979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="81" column="33" lean-forward="false" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/CSS/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1019,14 +1011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/content/Registration/success-signUp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/NipaHut_Model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1046,20 +1030,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="81" column="33" lean-forward="false" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/content/Registration/success-signUp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/content/Registration/SignUp.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="51" column="106" lean-forward="false" selection-start-line="51" selection-start-column="106" selection-end-line="51" selection-end-column="106" />
+          <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
           <folding>
-            <marker date="1481224174148" expanded="true" signature="1262:1433" ph="..." />
-            <marker date="1481224174148" expanded="true" signature="1701:2039" ph="..." />
-            <marker date="1481224174148" expanded="true" signature="1873:2039" ph="..." />
-            <marker date="1481224174148" expanded="true" signature="2470:2637" ph="..." />
-            <marker date="1481224174148" expanded="true" signature="2925:3092" ph="..." />
-            <marker date="1481224174148" expanded="true" signature="3380:3633" ph="..." />
-            <marker date="1481224174148" expanded="true" signature="3913:4042" ph="..." />
-            <marker date="1481224174148" expanded="true" signature="4355:4499" ph="..." />
-            <marker date="1481224174148" expanded="true" signature="4837:4992" ph="..." />
+            <marker date="1481225610829" expanded="true" signature="1216:1366" ph="..." />
+            <marker date="1481225610829" expanded="true" signature="1610:1948" ph="..." />
+            <marker date="1481225610829" expanded="true" signature="1782:1948" ph="..." />
+            <marker date="1481225610829" expanded="true" signature="2379:2525" ph="..." />
+            <marker date="1481225610829" expanded="true" signature="2785:2931" ph="..." />
+            <marker date="1481225610829" expanded="true" signature="3191:3423" ph="..." />
+            <marker date="1481225610829" expanded="true" signature="3679:3808" ph="..." />
+            <marker date="1481225610829" expanded="true" signature="4076:4220" ph="..." />
+            <marker date="1481225610829" expanded="true" signature="4506:4661" ph="..." />
           </folding>
         </state>
       </provider>
