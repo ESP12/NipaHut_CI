@@ -49,12 +49,12 @@
                                 </a>
                                 <a class="list-group-item">
                                     <label>Password</label>
-                                    <input name="register-password" type="password" class="form-control" required>
+                                    <input name="register-password" value="<?php echo set_value('register-password'); ?>" type="password" class="form-control" required>
                                     <span class="text-danger"><?php echo form_error('register-password'); ?></span>
                                 </a>
                                 <a class="list-group-item">
                                     <label>Confirm Password</label>
-                                    <input name="register-confirmpassword" type="password" class="form-control" required>
+                                    <input name="register-confirmpassword" value="<?php echo set_value('register-confirmpassword'); ?>" type="password" class="form-control" required>
                                     <span class="text-danger"><?php echo form_error('register-confirmpassword'); ?></span>
                                 </a>
                                 <a class="list-group-item text-right">
