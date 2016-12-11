@@ -20,7 +20,7 @@ class NipaHut_Model extends CI_Model{
             $this->db->from('admins');
             $this->db->where('username',$data_login['usename']);
             $this->db->where('passwords',$data_login['password']);
-            $this->db->limit(1);
+
 
             $query = $this->db->get();
 
@@ -31,7 +31,7 @@ class NipaHut_Model extends CI_Model{
                 $this->db->from('guest');
                 $this->db->where('username',$data_login['usename']);
                 $this->db->where('guestpassword',$data_login['password']);
-                $this->db->limit(1);
+
 
                 $query = $this->db->get();
 
@@ -51,7 +51,7 @@ class NipaHut_Model extends CI_Model{
         $this->db->select('*');
         $this->db->from('admins');
         $this->db->where($condition);
-        $this->db->limit(1);
+
 
         $query = $this->db->get();
 
@@ -66,7 +66,7 @@ class NipaHut_Model extends CI_Model{
             $this->db->select('*');
             $this->db->from('guest');
             $this->db->where($condition);
-            $this->db->limit(1);
+
 
             $query = $this->db->get();
 
