@@ -42,10 +42,7 @@ class NipaHut_Controller extends CI_Controller{
                         'password' => $result[0]->guestpassword,
                     );
                 }else{
-                    $data = array(
-                        'error_message' => 'Invalid Username or Password'
-                    );
-                    $this->index($data);
+                    $this->index();
                 }
             }
          // add user data session
@@ -57,10 +54,7 @@ class NipaHut_Controller extends CI_Controller{
                 $this->load->Guest_Login();
             }
         }else{
-            $data = array(
-                'error_message' => 'Invalid Username or Password'
-            );
-            $this->index($data);
+            $this->index();
         }
     }
 
