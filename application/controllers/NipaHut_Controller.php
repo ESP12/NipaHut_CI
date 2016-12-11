@@ -16,11 +16,12 @@ class NipaHut_Controller extends CI_Controller{
 
     public function index(){
 
-        $this->load->Login_form();
         $this->load->view("template/header");
+        $this->load->Login_form();
         $this->load->view("carousel/carousel");
         $this->load->view("content/index");
         $this->load->view("template/footer");
+
     }
 
     public function Login_form(){

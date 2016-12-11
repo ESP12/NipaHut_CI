@@ -39,10 +39,6 @@
                             <label>Mobile Number</label>
                             <input name="register-mobilenumber" value="<?php echo $data['mobile']; ?>" type="text" class="form-control" required>
                         </a>
-                        <a class="list-group-item"><h6>*This part will be covered for your Nipa Hut Guest Account for your convenient access.</h6>
-                            <label>Username</label>
-                            <input name="register-username" value="<?php echo $data['username']; ?>" type="text" class="form-control" required>
-                        </a>
                     </div>
                 </div>
             </div>
