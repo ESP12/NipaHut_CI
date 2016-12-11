@@ -17,7 +17,7 @@ class NipaHut_Controller extends CI_Controller{
     public function index(){
 
         $this->load->view("template/header");
-        $this->load->Login_form();
+        $this->Login_form();
         $this->load->view("carousel/carousel");
         $this->load->view("content/index");
         $this->load->view("template/footer");
