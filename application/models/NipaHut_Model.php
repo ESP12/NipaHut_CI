@@ -8,13 +8,78 @@
 class NipaHut_Model extends CI_Model{
 
 
-    //user loagin
+    //user login
     public function login(){
-        //initialize session
-        $this->load->library('session');
+        if (isset($_POST['sbt-login'])){
+            $data_login = array(
+              'username' => $this->input->post('login-username'),
+              'password' => md5($this->input->post('login-password'))
+            );
 
-        //retrieve data from database
-      //  $login->load->query("SELECT * FROM guest WHERE (username )");
+            $this->db->select('*');
+            $this->db->from('admins');
+            $this->db->where('username',$data_login['usename']);
+            $this->db->where('passwords',$data_login['password']);
+            $this->db->limit(1);
+
+            $query = $this->db->get();
+
+            if ($query->num_rows() == 1){
+                    return true;
+            }else{
+                $this->db->select('*');
+                $this->db->from('guest');
+                $this->db->where('username',$data_login['usename']);
+                $this->db->where('guestpassword',$data_login['password']);
+                $this->db->limit(1);
+
+                $query = $this->db->get();
+
+                if ($query->num_rows() == 1){
+                    return true;
+                }else{
+                    return false;
+                }
+            }
+        }
+    }
+
+    //read user information function
+
+    public function read_user_information($username){
+        $condition = "username =" . "'" . $username . "'";
+        $this->db->select('*');
+        $this->db->from('admins');
+        $this->db->where($condition);
+        $this->db->limit(1);
+
+        $query = $this->db->get();
+
+        if ($query->num_rows() == 1) {
+            return array(
+              'page' => 'admin',
+              'query' => $query
+            );
+
+        } else {
+            $condition = "username =" . "'" . $username . "'";
+            $this->db->select('*');
+            $this->db->from('guest');
+            $this->db->where($condition);
+            $this->db->limit(1);
+
+            $query = $this->db->get();
+
+            if ($query->num_rows() == 1){
+                return array(
+                    'page' => 'guest',
+                    'query' => $query
+                );
+            }else{
+                return false;
+            }
+
+        }
     }
 
     //new user is registered here

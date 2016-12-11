@@ -15,11 +15,52 @@ class NipaHut_Controller extends CI_Controller{
     }
 
     public function index(){
-        $this->load->database();
+
+        $this->load->Login_form();
         $this->load->view("template/header");
         $this->load->view("carousel/carousel");
         $this->load->view("content/index");
         $this->load->view("template/footer");
+    }
+
+    public function Login_form(){
+        $result = $this->NipaHut_Model->login();
+
+        if ($result == TRUE) {
+            $username = $this->input->post('login-username');
+            $result = $this->NipaHut_Model->read_user_information($username);
+            if ($result != false) {
+                if ($result['page'] == 'admin'){
+                    $session_data = array(
+                        'username' => $result[0]->username,
+                        'password' => $result[0]->passwords,
+                    );
+                }elseif($result['page'] == 'guest'){
+                    $session_data = array(
+                        'username' => $result[0]->Username,
+                        'password' => $result[0]->guestpassword,
+                    );
+                }else{
+                    $data = array(
+                        'error_message' => 'Invalid Username or Password'
+                    );
+                    $this->load->index($data);
+                }
+            }
+         // add user data session
+            $this->session->set_userdata('logged_in', $session_data);
+
+            if ($result['page'] == 'admin'){
+                $this->load->Admin_login();
+            }elseif ($result['page'] == 'guest'){
+                $this->load->Guest_Login();
+            }
+        }else{
+            $data = array(
+                'error_message' => 'Invalid Username or Password'
+            );
+            $this->load->index($data);
+        }
     }
 
     public function Rooms_User(){

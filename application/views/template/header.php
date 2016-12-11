@@ -121,11 +121,11 @@
                                             <div class="log-in">
                                                 <h3 class="log-in-title">Log In User Account</h3>
                                                 <hr class="feature-title-line">
-                                                <form method="POST" action="index.php">
+                                                <?php echo form_open('NipaHut_Contoroller/login_Form');?>
                                                     <input type="text" name="login-username" class="form-control" id="exampleInputEmail2" placeholder="Username" required>
                                                     <input type="password" name="login-password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
                                                     <input type="submit" name="sbt-login" class="form-control btn-warning" value="Log-In">
-                                                </form>
+                                                <?php form_close();?>
                                                 <div class="register-account">
                                                     New to Nipa Hut? <a href="<?php echo base_url();?>NipaHut_Controller/SignUp"><b>Register Now!</b></a>
                                                 </div>
