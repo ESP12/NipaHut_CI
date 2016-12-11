@@ -8,7 +8,7 @@
 
 <section class="reservation-content">
     <div class="container">
-            <h1 class="text-center">Registration Successful <?php echo $firstname; ?>!</h1>
+            <h1 class="text-center">Registration Successful <?php echo $data['firstname']; ?>!</h1>
             <div class="row">
                 <div class="col-md-3"></div><div class="col-md-6">
                     <div class="panel panel-default">
@@ -21,27 +21,27 @@
 
                         <a class="list-group-item">
                             <label>First Name</label>
-                            <input name="register-firstname" type="text" value="<?php echo $firstname; ?>" class="form-control" required>
+                            <input name="register-firstname" type="text" value="<?php echo $data['firstname']; ?>" class="form-control" required>
                         </a>
                         <a class="list-group-item">
                             <label>Last Name</label>
-                            <input name="register-lastname" type="text" value="<?php echo $lastname; ?>" class="form-control" required>
+                            <input name="register-lastname" type="text" value="<?php echo $data['lastname']; ?>" class="form-control" required>
                         </a>
                         <a class="list-group-item">
                             <label>Gender</label>
-                            <input type="text" value="<?php echo $gender; ?>" class="form-control">
+                            <input type="text" value="<?php echo $data['gender']; ?>" class="form-control">
                         </a>
                         <a class="list-group-item">
                             <label>Email Address</label>
-                            <input name="register-emailaddress" value="<?php echo $email; ?>" type="text" class="form-control" required>
+                            <input name="register-emailaddress" value="<?php echo $data['email']; ?>" type="text" class="form-control" required>
                         </a>
                         <a class="list-group-item">
                             <label>Mobile Number</label>
-                            <input name="register-mobilenumber" value="<?php echo $mobile; ?>" type="text" class="form-control" required>
+                            <input name="register-mobilenumber" value="<?php echo $data['mobile']; ?>" type="text" class="form-control" required>
                         </a>
                         <a class="list-group-item"><h6>*This part will be covered for your Nipa Hut Guest Account for your convenient access.</h6>
                             <label>Username</label>
-                            <input name="register-username" value="<?php echo $username; ?>" type="text" class="form-control" required>
+                            <input name="register-username" value="<?php echo $data['username']; ?>" type="text" class="form-control" required>
                         </a>
                     </div>
                 </div>
