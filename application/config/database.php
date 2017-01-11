@@ -73,25 +73,49 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'default';
 $query_builder = TRUE;
 
-$db['default'] = array(
+$db['default']['failover'] = array(
+    array(
 
-	'dsn'	=> 'pgsql:host=ec2-54-225-246-33.compute-1.amazonaws.com;port=5432;dbname=d9343ujhqo8koh',
-	'hostname' => 'ec2-54-225-246-33.compute-1.amazonaws.com',
-	'username' => 'cgfkrhuhslekgx',
-	'password' => 'd9hlIosGFNDEUloRouZO6QCVLb',
-	'database' => 'd9343ujhqo8koh',
-	'dbdriver' => 'pdo',
-	'dbprefix' => '',
-	'pconnect' => TRUE,
-	'db_debug' => TRUE,
-	'cache_on' => FALSE,
-	'cachedir' => '',
-	'char_set' => 'utf8',
-	'dbcollat' => 'utf8_general_ci',
-	'swap_pre' => '',
-	'encrypt' => FALSE,
-	'compress' => FALSE,
-	'stricton' => FALSE,
-	'failover' => array(),
-	'save_queries' => TRUE
+        'dsn'	=> 'pgsql:host=ec2-184-72-246-219.compute-1.amazonaws.com;port=5432;dbname=dcj747rbb4u710',
+        'hostname' => 'ec2-54-225-246-33.compute-1.amazonaws.com',
+        'username' => 'unvwxwgojdsgqa',
+        'password' => '9ba9d45273a5f4341569e9c6d4acaca102a97ccf77b2b9365d45f677dee759cb',
+        'database' => 'd9343ujhqo8koh',
+        'dbdriver' => 'pdo',
+        'dbprefix' => '',
+        'pconnect' => TRUE,
+        'db_debug' => TRUE,
+        'cache_on' => FALSE,
+        'cachedir' => '',
+        'char_set' => 'utf8',
+        'dbcollat' => 'utf8_general_ci',
+        'swap_pre' => '',
+        'encrypt' => FALSE,
+        'compress' => FALSE,
+        'stricton' => FALSE,
+        'failover' => array(),
+        'save_queries' => TRUE
+    ),
+    array(
+
+        'dsn'	=> '',
+        'hostname' => 'localhost:7777',
+        'username' => 'root',
+        'password' => '',
+        'database' => 'db_host',
+        'dbdriver' => 'sql',
+        'dbprefix' => '',
+        'pconnect' => TRUE,
+        'db_debug' => TRUE,
+        'cache_on' => FALSE,
+        'cachedir' => '',
+        'char_set' => 'utf8',
+        'dbcollat' => 'utf8_general_ci',
+        'swap_pre' => '',
+        'encrypt' => FALSE,
+        'compress' => FALSE,
+        'stricton' => FALSE,
+        'failover' => array(),
+        'save_queries' => TRUE
+    )
 );
