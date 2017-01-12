@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4c6d5ed4-b7c1-4b08-a952-f16cd4ddb697" name="Default" comment="Database Model fix&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/config.php" afterPath="$PROJECT_DIR$/application/config/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/database.php" afterPath="$PROJECT_DIR$/application/config/database.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,28 +59,28 @@
               <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/application/config/routes.php">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="213">
-                      <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+                    <state relative-caret-position="918">
+                      <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="config.php" pinned="false" current-in-tab="true">
+              <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/application/config/config.php">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="187">
+                    <state relative-caret-position="425">
                       <caret line="25" column="69" lean-forward="false" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
+              <file leaf-file-name="database.php" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/application/config/database.php">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="323">
-                      <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+                    <state relative-caret-position="414">
+                      <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
                       <folding />
                     </state>
                   </provider>
@@ -93,7 +93,7 @@
               <file leaf-file-name="NipaHut_Model.php" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/application/models/NipaHut_Model.php">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="1309">
+                    <state relative-caret-position="343">
                       <caret line="86" column="22" lean-forward="false" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
                       <folding />
                     </state>
@@ -221,8 +221,8 @@
         <option value="$PROJECT_DIR$/application/views/content/Registration/success-signUp.php" />
         <option value="$PROJECT_DIR$/application/models/NipaHut_Model.php" />
         <option value="$PROJECT_DIR$/application/controllers/NipaHut_Controller.php" />
-        <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
+        <option value="$PROJECT_DIR$/application/config/database.php" />
       </list>
     </option>
   </component>
@@ -254,6 +254,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -529,7 +530,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -644,7 +644,9 @@
       <workItem from="1481796243929" duration="774000" />
       <workItem from="1482753897707" duration="598000" />
       <workItem from="1483695862925" duration="1685000" />
-      <workItem from="1484138582351" duration="2143000" />
+      <workItem from="1484138582351" duration="2277000" />
+      <workItem from="1484175897782" duration="1072000" />
+      <workItem from="1484217867456" duration="318000" />
     </task>
     <task id="LOCAL-00001" summary="Database Model fix&#10;">
       <created>1480962391037</created>
@@ -657,7 +659,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160077000" />
+    <option name="totallyTimeSpent" value="161601000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -992,7 +994,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/NipaHut_Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
+        <state relative-caret-position="343">
           <caret line="86" column="22" lean-forward="false" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
           <folding />
         </state>
@@ -1010,9 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="66" column="24" lean-forward="false" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
-          <folding>
-            <marker date="1481225997599" expanded="true" signature="1262:1412" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1034,8 +1033,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="918">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1056,18 +1055,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        <state relative-caret-position="425">
+          <caret line="25" column="69" lean-forward="false" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="25" column="69" lean-forward="false" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
+        <state relative-caret-position="414">
+          <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
           <folding />
         </state>
       </provider>

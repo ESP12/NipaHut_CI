@@ -73,9 +73,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'default';
 $query_builder = TRUE;
 
-$db['default']['failover'] = array(
-    array(
-
+$db['default'] = array(
         'dsn'	=> 'pgsql:host=ec2-184-72-246-219.compute-1.amazonaws.com;port=5432;dbname=dcj747rbb4u710',
         'hostname' => 'ec2-54-225-246-33.compute-1.amazonaws.com',
         'username' => 'unvwxwgojdsgqa',
@@ -95,27 +93,5 @@ $db['default']['failover'] = array(
         'stricton' => FALSE,
         'failover' => array(),
         'save_queries' => TRUE
-    ),
-    array(
 
-        'dsn'	=> '',
-        'hostname' => 'localhost:7777',
-        'username' => 'root',
-        'password' => '',
-        'database' => 'db_host',
-        'dbdriver' => 'sql',
-        'dbprefix' => '',
-        'pconnect' => TRUE,
-        'db_debug' => TRUE,
-        'cache_on' => FALSE,
-        'cachedir' => '',
-        'char_set' => 'utf8',
-        'dbcollat' => 'utf8_general_ci',
-        'swap_pre' => '',
-        'encrypt' => FALSE,
-        'compress' => FALSE,
-        'stricton' => FALSE,
-        'failover' => array(),
-        'save_queries' => TRUE
-    )
 );
