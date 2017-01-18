@@ -74,11 +74,11 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-        'dsn'	=> 'pgsql:host=ec2-184-72-246-219.compute-1.amazonaws.com;port=5432;dbname=dcj747rbb4u710',
-        'hostname' => 'ec2-54-225-246-33.compute-1.amazonaws.com',
-        'username' => 'unvwxwgojdsgqa',
-        'password' => '9ba9d45273a5f4341569e9c6d4acaca102a97ccf77b2b9365d45f677dee759cb',
-        'database' => 'd9343ujhqo8koh',
+        'dsn'	=> 'pgsql:host=ec2-54-243-185-132.compute-1.amazonaws.com;port=5432;dbname=dfifgng8qmuj9m',
+        'hostname' => 'ec2-54-243-185-132.compute-1.amazonaws.com',
+        'username' => 'ncwbzobajswhux',
+        'password' => 'ab422696e9bc8934e62345332cd1b2160195a86705da1a22178b65189c5c3393',
+        'database' => 'dfifgng8qmuj9m',
         'dbdriver' => 'pdo',
         'dbprefix' => '',
         'pconnect' => TRUE,
@@ -93,5 +93,27 @@ $db['default'] = array(
         'stricton' => FALSE,
         'failover' => array(),
         'save_queries' => TRUE
+);
 
+
+$db['subDB'] = array(
+    'dsn'	=> '',
+    'hostname' => 'localhost:7777',
+    'username' => 'root',
+    'password' => 'root',
+    'database' => '',
+    'dbdriver' => 'pdo',
+    'dbprefix' => '',
+    'pconnect' => TRUE,
+    'db_debug' => TRUE,
+    'cache_on' => FALSE,
+    'cachedir' => '',
+    'char_set' => 'utf8',
+    'dbcollat' => 'utf8_general_ci',
+    'swap_pre' => '',
+    'encrypt' => FALSE,
+    'compress' => FALSE,
+    'stricton' => FALSE,
+    'failover' => array(),
+    'save_queries' => TRUE
 );
